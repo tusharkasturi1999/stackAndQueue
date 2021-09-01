@@ -13,7 +13,12 @@ public class StackQueueDriver {
 		object.push(30);
 		object.push(56);
 		object.print();
-		
+		object.peek();
+		object.pop();
+		object.print();
+		object.peek();
+		object.pop();
+		object.print();		
 	}
 
 }

@@ -24,8 +24,19 @@ public class Stack<K> {
 		LinkedListObject.insertAtStart(data);
 	}
 	
+	//This method prints the stack
 	public void print() {
 		LinkedListObject.show();
+	}
+	
+	//This method returns the topmost element
+	public K peek() {
+		System.out.println("Topmost element is: " +LinkedListObject.head.data);
+		return LinkedListObject.head.data;
+	}
+	
+	public void pop() {
+		LinkedListObject.pop();
 	}
 
 }
