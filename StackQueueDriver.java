@@ -10,6 +10,10 @@ public class StackQueueDriver {
 	public static void main(String[] args) {
 		Stack<Integer> object = new Stack<>();
 		object.push(70);
+		object.push(30);
+		object.push(56);
+		object.print();
+		
 	}
 
 }

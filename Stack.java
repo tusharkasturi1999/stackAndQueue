@@ -23,5 +23,9 @@ public class Stack<K> {
 	public void push(K data) {
 		LinkedListObject.insertAtStart(data);
 	}
+	
+	public void print() {
+		LinkedListObject.show();
+	}
 
 }
