@@ -5,7 +5,7 @@ import com.bridgelabz.datastructure.*;
 /**
  * @author tushar.kasturi_ymedi
  *
- * @param <T> This is generic parameter
+ * @param <K> This is generic parameter
  */
 public class Stack<K> {
 

@@ -8,17 +8,26 @@ public class StackQueueDriver {
 	
 	//This is the main method
 	public static void main(String[] args) {
-		Stack<Integer> object = new Stack<>();
-		object.push(70);
-		object.push(30);
-		object.push(56);
-		object.print();
-		object.peek();
-		object.pop();
-		object.print();
-		object.peek();
-		object.pop();
-		object.print();		
+		Stack<Integer> stackObject = new Stack<>();
+		System.out.println("Stack Operations");
+		stackObject.push(70);
+		stackObject.push(30);
+		stackObject.push(56);
+		stackObject.print();
+		stackObject.peek();
+		stackObject.pop();
+		stackObject.print();
+		stackObject.peek();
+		stackObject.pop();
+		stackObject.print();		
+		System.out.println();
+		
+		Queue<Integer> queueObject = new Queue<>();
+		System.out.println("Queue Operations");
+		queueObject.enqueu(56);
+		queueObject.enqueu(30);
+		queueObject.enqueu(70);
+		queueObject.print();
 	}
 
 }
