@@ -19,14 +19,23 @@ public class StackQueueDriver {
 		stackObject.print();
 		stackObject.peek();
 		stackObject.pop();
-		stackObject.print();		
+		stackObject.print();	
+		stackObject.peek();
+		stackObject.pop();
+		stackObject.print();
 		System.out.println();
 		
 		Queue<Integer> queueObject = new Queue<>();
 		System.out.println("Queue Operations");
-		queueObject.enqueu(56);
-		queueObject.enqueu(30);
-		queueObject.enqueu(70);
+		queueObject.enqueue(56);
+		queueObject.enqueue(30);
+		queueObject.enqueue(70);
+		queueObject.print();
+		queueObject.dequeue();
+		queueObject.print();
+		queueObject.dequeue();
+		queueObject.print();
+		queueObject.dequeue();
 		queueObject.print();
 	}
 

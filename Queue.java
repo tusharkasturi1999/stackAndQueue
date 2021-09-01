@@ -21,11 +21,20 @@ public class Queue<K> {
 	}
 	
 	/**
-	 * This method implements enqueu by indirectly calling insert method of linkedlist
+	 * This method implements enqueue by indirectly calling insert method of linkedlist
 	 * 
 	 * @param data This parameter takes in generic type data
 	 */
-	public void enqueu(K data) {
+	public void enqueue(K data) {
 		LinkedListObject.insert(data);
+	}
+	
+	/**
+	 * This method implements dequeue by indirectly calling pop method of linkedlist
+	 * 
+	 * @param data This parameter takes in generic type data
+	 */
+	public void dequeue() {
+		LinkedListObject.pop();
 	}
 }
